@@ -1,0 +1,257 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.categories-main {
+  width: 1320px;
+  margin: auto;
+}
+
+.categories-main a {
+  text-decoration: none;
+}
+
+.product-details {
+  display: flex;
+}
+
+.left-categories {
+  width: 25%;
+  margin: 1%;
+  margin-top: 4%;
+}
+
+.right-categories {
+  width: 70%;
+  margin-top: 2%;
+}
+
+.categories-heading {
+  margin-bottom: 15px;
+}
+
+.cat {
+  border-bottom: 1px solid rgb(229, 223, 223);
+  width: 80%;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+  height: 35px;
+  color: rgb(118, 127, 137);
+  margin-bottom: 5px;
+}
+
+.Categories-Container {
+  margin-bottom: 10px;
+}
+
+.price-heading {
+  margin-bottom: 18px;
+  font-size: 1.25rem;
+}
+
+.price-range-container {
+  margin-bottom: 18px;
+}
+
+.price-label {
+  font-size: 0.875rem;
+}
+
+.price-value {
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-left: 5px;
+  color: #777;
+}
+
+.custom-slider {
+  width: 80% !important;
+  height: 10px !important;
+  background-color: lightgray !important;
+  margin-bottom: 10px;
+}
+
+.custom-slider .p-slider-handle {
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.custom-slider ::v-deep .p-slider-handle {
+  background-color: white !important;
+  border-color: lightgreen !important;
+  top: -30%;
+}
+
+.star-ratings {
+  margin-bottom: 10px !important;
+}
+
+.stars {
+  margin-bottom: 20px !important;
+}
+
+.productSection {
+  display: flex;
+  border: 1px solid rgb(214, 209, 209);
+  margin-top: 2%;
+  width: 100%;
+  padding: 2%;
+  border-radius: 0.4rem;
+}
+
+.productlist-image {
+  margin: 4%;
+  height: 160px;
+  width: 160px;
+  border-radius: 8px;
+  margin-right: 7%;
+}
+
+.product-description {
+  margin-left: 10%;
+  margin-top: 3%;
+}
+
+.product-categories {
+  margin-bottom: 3px;
+  color: lightslategrey;
+  font-size: 15px;
+}
+
+.product-name {
+  font-size: 20px;
+  /* margin-bottom: px; */
+}
+
+.rating {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.product-price {
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+
+.icons-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.Cart-button {
+  background-color: rgb(29, 182, 29);
+  border: none;
+  /* text-align: center; */
+  width: 110px;
+  height: 35px;
+  border-radius: 0.4rem;
+  color: white;
+  margin-top: 8px;
+  padding: 7px;
+}
+
+.Product-header {
+  background-color: rgb(243, 246, 243);
+  height: 120px;
+  text-align: left;
+  padding: 5%;
+  font-size: 24px;
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+
+.view-star {
+  color: rgb(245, 175, 0);
+}
+
+.blank-star {
+  color: transparent;
+  /* text-shadow: none;  */
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  /* border-radius: 2px; */
+}
+
+.product-col {
+  width: 100%;
+}
+
+.product-flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  margin-left: 340px;
+}
+
+.product-icons {
+  border: 1px solid grey;
+  padding: 3px;
+}
+
+.dropdowns {
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+
+.select-wrapper {
+  margin-right: 15px;
+  border-radius: 2px;
+}
+
+.product-select {
+  width: 100%;
+  height: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.pagination-item {
+  margin-right: 5px;
+}
+
+.pagination-link {
+  padding: 5px 10px;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  color: #333;
+  border-radius: 5px;
+}
+
+.pagination-item.active .pagination-link {
+  background-color: rgba(15, 172, 7, 0.686);
+  color: #fff;
+}
+
+.pagination-item.disabled .pagination-link {
+  color: #6c757d;
+  pointer-events: none;
+  background-color: #f8f9fa;
+  border-color: #dee2e6;
+}

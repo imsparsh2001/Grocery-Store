@@ -1,0 +1,136 @@
+/* Special-offers section style */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container3 {
+  width: 1320px;
+  margin: 0px auto;
+  margin-top: 3%;
+}
+
+.special-offers a {
+  text-decoration: none;
+  color: rgb(42, 188, 42);
+}
+
+.special-offers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.special-offers p {
+  color: grey;
+}
+
+.specialoffers {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 5px;
+  margin: 20px 0px;
+}
+
+.specialoffers .article {
+  flex: 1;
+  border: 2px solid rgb(218, 217, 217);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.specialoffers pre {
+  text-align: left;
+  height: 21px;
+  margin-bottom: 5px;
+}
+
+.custom-progress {
+  height: 20px;
+  accent-color: grey;
+}
+
+.item-img {
+  display: flex;
+  height: fit-content;
+  align-content: center;
+  justify-content: center;
+}
+
+.item-img img {
+  height: 110px;
+}
+
+.specialoffers img {
+  display: block;
+  margin: 0px auto;
+  align-self: center;
+}
+
+.specialoffers span {
+  background-color: rgb(116, 175, 253);
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 1%;
+  height: 28px;
+}
+
+.no-discount{
+  height: 28px;
+}
+
+
+.offer-price {
+  color: black;
+}
+
+.offer-price del {
+  color: gray;
+}
+
+p.availibility {
+  color: rgb(5, 170, 5);
+}
+
+.specialoffers p:last-child {
+  color: grey;
+}
+
+.specialoffers p:last-child span {
+  color: black;
+  background-color: #fff;
+}
+
+.view-star {
+  color: #ffdf00;
+}
+
+@media screen and (max-width: 740px) {
+  * {
+    line-height: 1.4;
+    max-width: 100%;
+  }
+
+  .special-offers {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .specialoffers {
+    flex-wrap: wrap;
+    border: 1px solid red;
+    margin: 10px;
+  }
+
+  .specialoffers article {
+    min-width: 48%;
+    max-width: 48%;
+    gap: 4%;
+  }
+}

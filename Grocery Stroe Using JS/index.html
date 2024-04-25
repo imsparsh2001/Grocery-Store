@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/mobile.css" />
+    <script src="script.js"></script>
+    <link rel=" icon" type="image/x-icon" href="Images/grocery.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/11d64471d7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header section - --->
+    <div class="container1">
+      <header id="header">
+        <a href="#"
+          ><img
+            src="./Images/logo.PNG"
+            alt="logo"
+            class="logo-image"
+            height="80px"
+            width="80px"
+        /></a>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Search for Products"
+          class="searchBar"
+          style="background-image: url(Images/search-bar.png)"
+        />
+        <div class="nav">
+          <a href="#"
+            ><img
+              src="./Images/like.png"
+              alt="logo"
+              class="like-image"
+              height="40px"
+              width="40px"
+          /></a>
+          <a href="#" id="location"
+            ><img
+              src="./Images/location.png"
+              alt="logo"
+              id="location-image"
+              height="40px"
+              width="40px"
+          /></a>
+          <a href="#"
+            ><img
+              src="./Images/person.png"
+              alt="logo"
+              id="person-image"
+              height="40px"
+              width="40px"
+          /></a>
+          <a href="#"
+            ><img
+              src="./Images/cart.png"
+              alt="logo"
+              id="cart-image"
+              height="40px"
+              width="40px"
+          /></a>
+        </div>
+      </header>
+      <hr />
+
+      <!-- location-overlay section -->
+      <div class="" id="blur"> <!--currentTarget-->
+        <div id="popup-body"> <!--target-->
+          <button class="close-button" id="cross">&times;</button>
+          <p class="headline" style="font-size: 18px">
+            <b>Choose Your Delivery location</b>
+          </p>
+          <p class="description" style="font-size: 14px">
+            Enter your address and we will specify the offer you area.
+          </p>
+          <input
+            type="search"
+            placeholder="Search your area."
+            id="areaSearch"
+          />
+
+          <!-- table of location overlay -->
+          <table class="LocationTable">
+            <thead>
+              <tr>
+                <td id="loc"><b>Select Location</b></td>
+                <td class="td-btn">
+                  <button class="clearBtn">Clear All</button>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Albama</td>
+                <td>Min:$20</td>
+              </tr>
+              <tr>
+                <td>Alaska</td>
+                <td>Min:$30</td>
+              </tr>
+              <tr>
+                <td>Arizona</td>
+                <td>Min:$50</td>
+              </tr>
+              <tr>
+                <td>California</td>
+                <td>Min:$29</td>
+              </tr>
+              <tr>
+                <td>Colorado</td>
+                <td>Min:$80</td>
+              </tr>
+              <tr>
+                <td>Florida</td>
+                <td>Min:$90</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Section -->
+    <div class="container2">
+      <section class="image-section">
+        <div class="left-image">
+          <img src="Images/slider-image-1.jpg" alt="Large-image" />
+          <div class="image-overlay">
+            <p style="font-weight: 600">
+              Exclusive Offer <span class="highlight">15%</span>
+            </p>
+            <h1>
+              Best Online<br />
+              Deals, Free Stuff
+            </h1>
+            <p style="font-weight: 600">Only on this Week...don't miss</p>
+            <p style="font-weight: 600">
+              Starts from <span class="price">$5.99</span>
+            </p>
+            <button class="green-button">Get Best Deals -></button>
+          </div>
+        </div>
+
+        <div class="right-top-image">
+          <img src="Images/ad-banner-1.jpg" alt="Small-image" />
+          <div class="top-image">
+            <h1>
+              10% Cashback on <br />
+              Personal Care
+            </h1>
+            <p style="font-weight: 600">
+              Max Cashback: $12<br />Code:<span class="code">CARE12</span>
+            </p>
+            <button>Shop Now</button>
+          </div>
+        </div>
+        <div class="right-bottom-image">
+          <img src="Images/ad-banner-2.jpg" alt="Small-image" />
+          <div class="bottom-image">
+            <h1>
+              Say yes to <br />
+              season's fresh
+            </h1>
+            <p style="font-weight: 600">
+              Refresh your day <br />
+              the fruity way
+            </p>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- popular-categories section -->
+      <section class="popular-categories">
+        <h2 class="section-title">Shop popular-categories</h2>
+        <div class="popular-cateories-list">
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/1.png" alt="Dairy,Bread & Eggs" />
+            </div>
+
+            <p>Dairy,Bread & Eggs</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/2.png" alt="Fruits & Vegetables" />
+            </div>
+
+            <p>Fruits & Vegetables</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/3.png" alt="Snacks & Munchies" />
+            </div>
+
+            <p>Snacks & Munchies</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/4.png" alt="Bakery & Biscuits" />
+            </div>
+
+            <p>Bakery & Biscuits</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/5.png" alt="Dairy,Bread & Eggs" />
+            </div>
+
+            <p>Instant Foods</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/6.png" alt="Tea,Coffee & Drinks" />
+            </div>
+
+            <p>Tea,Coffee & Drinks</p>
+          </div>
+
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/7.png" alt="Cold Drinks & Juices" />
+            </div>
+
+            <p>Cold Drinks & Juices</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/8.png" alt="Chicken Meat & Fish" />
+            </div>
+
+            <p>Chicken Meat & Fish</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/9.png" alt="Baby Care" />
+            </div>
+
+            <p>Baby Care</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/10.png" alt="Cleaning Essentials" />
+            </div>
+
+            <p>Cleaning Essentials</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/11.png" alt="Pet Care" />
+            </div>
+
+            <p>Pet Care</p>
+          </div>
+          <div class="category-item">
+            <div class="img-wrapper">
+              <img src="images/12.png" alt="Atta Rice & Dal" />
+            </div>
+
+            <p>Atta Rice & Dal</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Container for Content (Special-Offers, Sign-up and footer sections) -->
+    <div class="container3">
+      <main id="photosJson">
+        <!-- container for Heading content -->
+        <section class="special-offers">
+          <div>
+            <h3>Special Offers of the View All Week!</h3>
+            <p>
+              Get exclusive ongoing offers, deals, and discount cides of
+              shopping
+            </p>
+          </div>
+
+          <!-- Link Button -->
+          <div class="view-link">
+            <a href="#">View All ></a>
+          </div>
+        </section>
+
+        <!-- <section class="specialoffers">
+          <article>
+            <pre><span> 16% </span></pre>
+            <a href="thumnail.html">
+              <div class="item-img">
+                <img
+                  width="150px"
+                  src="Images/detailPicture1.png"
+                  alt="Napolitanke.png"
+                />
+              </div>
+            </a>
+
+            <p class="offer-price">$34 <del>$38</del></p>
+            <p>Napolitanke Ljesnjak</p>
+            
+            <div class="review-stars">
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i
+                class="fa-solid fa-star-half-stroke"
+                style="color: #ffdf00"
+              ></i>
+              4.5(212)
+            </div>
+            <p class="availibility">IN STOCK</p>
+            <progress
+              class="custom-progress"
+              id="#"
+              max="100"
+              value="67"
+            ></progress>
+            <p>the available products: <span>67</span></p>
+          </article> -->
+
+        <!-- <article>
+            <pre><span> 25% </span></pre>
+            <a href="thumnail.html">
+              <div class="item-img">
+                <img
+                  width="150px"
+                  src="Images/britannia.webp"
+                  alt="biscuits.png"
+                />
+              </div>
+            </a>
+            <p>$15</p>
+            <p>Britannia NutriChoice Digestive Biscuits</p>
+            
+            <div class="review-stars">
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i
+                class="fa-solid fa-star-half-stroke"
+                style="color: #ffdf00"
+              ></i>
+              4.4(3,149)
+            </div>
+            <p class="availibility">IN STOCK</p>
+            <progress
+              class="custom-progress"
+              id="#"
+              min="0"
+              max="100"
+              value="88"
+            ></progress>
+            <p>the available products: <span>12</span></p>
+          </article> -->
+
+        <!-- <article>
+            <pre><span class="starchoco"> Buy 1 Get $4.00 Off </span></pre>
+            <div class="item-img">
+              <img width="150px" src="Images/5star.png" alt="5star.png" />
+            </div>
+            <p>$32</p>
+            <p>Cadebury 5 star chocolate</p>
+            
+            <div class="review-stars">
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i
+                class="fa-solid fa-star-half-stroke"
+                style="color: #ffdf00"
+              ></i>
+              4.7(1,130)
+            </div>
+            <p class="availibility">IN STOCK</p>
+            <progress
+              class="custom-progress"
+              id="#"
+              max="100"
+              value="66"
+            ></progress>
+            <p>the available products: <span>34</span></p>
+          </article> -->
+
+        <!-- <article>
+            <pre><span> 22% </span></pre>
+            <div class="item-img">
+              <img
+                width="150px"
+                src="Images/cornflake.png"
+                alt="cornflakes.png"
+              />
+            </div>
+            <p class="offer-price">$25 <del>$28</del></p>
+            <p>Kellogg's Special K Original Cereal</p>
+            
+            <div class="review-stars">
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i
+                class="fa-solid fa-star-half-stroke"
+                style="color: #ffdf00"
+              ></i>
+              4.7(1,130)
+            </div>
+            <p class="availibility">IN STOCK</p>
+            <progress
+              class="custom-progress"
+              id="#"
+              max="100"
+              value="88"
+            ></progress>
+            <p>the available products: <span>12</span></p>
+          </article> -->
+
+        <!-- <article>
+            <pre>‎</pre>
+            <div class="item-img">
+              <img
+                width="150px"
+                src="Images/AmulButter.png"
+                alt="amulbutter.png"
+              />
+            </div>
+            <p class="offer-price">$22 <del>$29</del></p>
+            <p>Amul Butter -500g</p>
+            
+            <div class="review-stars">
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i class="fa-solid fa-star" style="color: #ffdf00"></i>
+              <i
+                class="fa-solid fa-star-half-stroke"
+                style="color: #ffdf00"
+              ></i>
+              4.3(68)
+            </div>
+            <p class="availibility">IN STOCK</p>
+            <progress
+              class="custom-progress"
+              id="#"
+              max="100"
+              value="56"
+            ></progress>
+            <p>the available products: <span>44</span></p>
+          </article>
+        </section>  -->
+      </main>
+
+      <!-- Sign-up Section -->
+      <section class="sign-up">
+        <!-- Sign-up Content -->
+        <article>
+          <p>$30 discount for your first order</p>
+          <h3>Get top deals,latest trends, and more.</h3>
+          <p>
+            Join our mail subscription now to get updates on promotions and
+            coupons.
+          </p>
+          <!-- Form to accept Mail ID -->
+          <form action="#" method="get">
+            <!-- Input tag with placeholder and validation for user to enter their mail -->
+            <input
+              required
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              autocomplete="off"
+            />
+            <!-- button to submit the form -->
+            <button type="submit" id="signup">Sign Up</button>
+          </form>
+        </article>
+
+        <!-- image for the sign-up section -->
+        <img src="Images/girl-email.png" alt="girl-email.png" />
+      </section>
+
+      <!-- footer Content -->
+      <footer>
+        <section>
+          <!-- Different Categories and About  -->
+          <article class="about">
+            <!-- Different Categories of goods available -->
+            <div class="categories">
+              <h4>Categories</h4>
+              <div class="subcategory">
+                <div>
+                  <p>
+                    Vegetables & Fruits <br />
+                    Breakfast & Instant food <br />
+                    Bakery & Biscuits <br />
+                    Atta, rice & dal <br />
+                    Sauces & spreads <br />
+                    Organic & gourmet <br />
+                    Baby Care <br />
+                    Cleaning essentials <br />
+                    Personal Care
+                  </p>
+                </div>
+
+                <div>
+                  <p>
+                    Dairy, bread & eggs <br />
+                    Cold drinks & juices <br />
+                    Tea, coffee & drinks <br />
+                    Masala, oil & more <br />
+                    Chicken, meat & fish <br />
+                    Paan corner <br />
+                    Pharma & wellness <br />
+                    Home & office <br />
+                    Pet care
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- ABout Company -->
+            <div>
+              <h4>Get to know us</h4>
+              <p>
+                Company <br />
+                About <br />
+                Blog <br />
+                Help Center <br />
+                Our Value
+              </p>
+            </div>
+
+            <!-- Services for Consumer  -->
+            <div>
+              <h4>For Consumers</h4>
+              <p>
+                Payments <br />
+                Shipping <br />
+                Product Returns <br />
+                FAQ <br />
+                Shop Checkout
+              </p>
+            </div>
+
+            <!-- Shopper Opportunities -->
+            <div>
+              <h4>Become a Shopper</h4>
+              <p>
+                Shopper Opportunities <br />
+                Become a Shopper <br />
+                Earnings <br />
+                Ideas & Guides <br />
+                New Retailers <br />
+              </p>
+            </div>
+
+            <!-- New Programs and offers -->
+            <div>
+              <h4>Freshcart programs</h4>
+              <p>
+                Freshcart programs <br />
+                Gift Cards <br />
+                Promos & Coupons <br />
+                Freshcart Ads <br />
+                Careers
+              </p>
+            </div>
+          </article>
+
+          <hr class="custom-hr" />
+
+          <!-- Payment Gateway Partners -->
+          <article class="payment-bar">
+            <div>
+              <p>
+                <strong>Payment Partners</strong>
+                <img
+                  width="200px"
+                  src="Images/payment.png"
+                  alt="paymentgateways.png"
+                />
+              </p>
+            </div>
+
+            <!-- App download Locations -->
+            <div>
+              <img
+                width="150px"
+                height="30px"
+                src="Images/AppStore.png"
+                alt="appstore.png"
+              />
+              <img
+                width="150px"
+                height="30px"
+                src="Images/GooglePlay.png"
+                alt="googleplay.png"
+              />
+            </div>
+          </article>
+
+          <hr class="custom-hr" />
+
+          <!-- Social Bar Container -->
+          <article class="social-bar">
+            <p>Follow us on</p>
+            <img
+              width="100px"
+              height="25px"
+              src="Images/social.PNG"
+              alt="socialnetworks.png"
+            />
+          </article>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>

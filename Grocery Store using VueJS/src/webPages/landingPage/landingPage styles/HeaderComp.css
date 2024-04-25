@@ -1,0 +1,122 @@
+#header {
+  display: flex;
+  height: 10%;
+  width: 100%;
+  padding: 0.5%;
+}
+
+#header .searchBar {
+  height: 3%;
+  width: 60%;
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-top: 1%;
+  flex: auto;
+  border-radius: 0.4rem;
+  border-width: thin;
+  background-position: 99% 50%;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+  padding: 10px;
+}
+
+.nav {
+  margin: 10px;
+}
+
+.nav img {
+  margin-top: 2%;
+}
+
+/* pop-up css */
+#popup-body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  z-index: 3;
+  padding: 5px;
+  border-radius: 0.6rem;
+}
+
+#blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 39, 39, 0.5);
+  z-index: 2;
+  /* display: none; */
+}
+
+#cross {
+  position: absolute;
+  cursor: pointer;
+  font-size: 30px;
+  top: -1%;
+  left: 90%;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+}
+
+.LocationTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+.LocationTable tr {
+  border-bottom: 1px solid rgb(111, 108, 108);
+}
+
+.LocationTable td:nth-child(odd) {
+  float: inline-start;
+}
+
+.LocationTable td:nth-child(even) {
+  float: inline-end;
+}
+
+.LocationTable th {
+  padding: 10px;
+}
+
+.LocationTable td {
+  padding: 10px;
+}
+
+.LocationTable tr:hover {
+  background-color: rgb(206, 202, 202);
+}
+
+#areaSearch {
+  border-radius: 0.4rem;
+  width: 95%;
+  height: 35px;
+  margin: 2%;
+  padding: 10px;
+  border: 1px solid rgb(164, 160, 160);
+}
+
+#loc {
+  padding-left: 0px;
+}
+
+.clearBtn {
+  background-color: transparent;
+  border-radius: 0.4rem;
+  height: 30px;
+  width: 70px;
+}
+
+.description {
+  margin-top: 0%;
+}
+
+.headline {
+  margin-bottom: 1%;
+  width: 80%;
+}

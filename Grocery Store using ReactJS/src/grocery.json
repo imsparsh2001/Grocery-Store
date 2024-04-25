@@ -1,0 +1,408 @@
+[
+   {
+      "items":[
+         {
+            "desc":"Classic delight with 100% real mozzarella cheese",
+            "id":1,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122"],
+            "name":"Margherita",
+            "price":298,
+			"productCode": "FBB00024",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Best sellers",
+         "rating":4.6,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Barbecue chicken for that extra zing",
+            "id":2,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7"],
+            "name":"Barbecue Chicken",
+            "price":298,
+			"productCode": "FBB00025",
+			"type": "barbeque",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Best sellers",
+         "rating":5,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Delightful combo of grilled mushroom & veggies",
+            "id":3,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439"],
+            "name":"Farmhouse",
+            "price":395,
+			"productCode": "FBB00026",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Best sellers",
+         "rating":3.4,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Supreme combo of 3 types of chicken",
+            "id":4,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa"],
+            "name":"Non Veg Supreme",
+            "price":570,
+			"productCode": "FBB00027",
+			"type": "pizza",
+			"availability": "In Stock",
+         "category":"Best sellers",
+         "rating":1.4,
+			"shipping": "In 1 hr (Free Delivery)",
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"The awesome foursome with exotic veggies!",
+            "id":5,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6"],
+            "name":"Veggie Paradise",
+            "price":395,
+			"productCode": "FBB00028",
+			"type": "pizza",
+			"availability": "In Stock",
+         "category":"Best sellers",
+         "rating":3.6,
+			"shipping": "In 1 hr (Free Delivery)",
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         }
+      ]
+   },
+   {
+      "items":[
+         {
+            "desc":"Classic delight with 100% real mozzarella cheese",
+            "id":6,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122"],
+            "name":"Margherita",
+            "price":298,
+			"productCode": "FBB00029",
+			"type": "pizza",
+			"availability": "In Stock",
+         "category":"Veg Pizzas",
+         "rating":2.6,
+			"shipping": "In 1 hr (Free Delivery)",
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Delightful combo of grilled mushroom & veggies",
+            "id":7,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439"],
+            "name":"Farmhouse",
+            "price":395,
+			"productCode": "FBB00030",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Veg Pizzas",
+         "rating":5,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"The awesome foursome with exotic veggies!",
+            "id":8,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6"],
+            "name":"Veggie Paradise",
+            "price":395,
+			"productCode": "FBB00031",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Veg Pizzas",
+         "ratings":4,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"A delicacy prepared with golden corn",
+            "id":9,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheese_n_Corn.webp?alt=media&token=55ae0731-ffb6-42c4-ad61-3d1d735b04f1","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheese_n_Corn.webp?alt=media&token=55ae0731-ffb6-42c4-ad61-3d1d735b04f1","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheese_n_Corn.webp?alt=media&token=55ae0731-ffb6-42c4-ad61-3d1d735b04f1","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheese_n_Corn.webp?alt=media&token=55ae0731-ffb6-42c4-ad61-3d1d735b04f1"],
+            "name":"Cheese n Corn",
+            "price":305,
+			"productCode": "FBB00032",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Veg Pizzas",
+         "rating":3.2,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Flavorful trio: paneer, capsicum, red paprika",
+            "id":10,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPeppy_Paneer.webp?alt=media&token=feabb6f1-1121-47ee-9eac-494b7f49e3c3","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPeppy_Paneer.webp?alt=media&token=feabb6f1-1121-47ee-9eac-494b7f49e3c3","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPeppy_Paneer.webp?alt=media&token=feabb6f1-1121-47ee-9eac-494b7f49e3c3","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPeppy_Paneer.webp?alt=media&token=feabb6f1-1121-47ee-9eac-494b7f49e3c3"],
+            "name":"Peppy Paneer",
+            "price":395,
+			"productCode": "FBB00033",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Veg Pizzas",
+         "rating":4.6,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         }
+      ]
+   },
+   {
+      "items":[
+         {
+            "desc":"Barbecue chicken for that extra zing",
+            "id":11,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7","data:image/jpeg;base64,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","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7"],
+            "name":"Barbecue Chicken",
+            "price":298,
+			"productCode": "FBB00034",
+			"type": "barbeque",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"NonVeg Pizzas",
+         "rating":3.3,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+          
+         {
+            "desc":"Supreme combo of 3 types of chicken",
+            "id":12,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa"],
+            "name":"Non Veg Supreme",
+            "price":570,
+			"productCode": "FBB00035",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"NonVeg Pizzas",
+         "rating":2.1,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Beware! You'll be left craving for more",
+            "id":13,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Dominator.webp?alt=media&token=e8b826db-cdc3-4b37-abf1-dc5d999850c9","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Dominator.webp?alt=media&token=e8b826db-cdc3-4b37-abf1-dc5d999850c9","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Dominator.webp?alt=media&token=e8b826db-cdc3-4b37-abf1-dc5d999850c9","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Dominator.webp?alt=media&token=e8b826db-cdc3-4b37-abf1-dc5d999850c9"],
+            "name":"Chicken Dominator",
+            "price":570,
+			"productCode": "FBB00036",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"NonVeg Pizzas",
+         "rating":5,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Spicy, herbed chicken sausage on pizza",
+            "id":14,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Sausage.webp?alt=media&token=e6943fcc-b821-46e0-9028-5623fe4db525","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Sausage.webp?alt=media&token=e6943fcc-b821-46e0-9028-5623fe4db525","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Sausage.webp?alt=media&token=e6943fcc-b821-46e0-9028-5623fe4db525","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChicken_Sausage.webp?alt=media&token=e6943fcc-b821-46e0-9028-5623fe4db525"],
+            "name":"Chicken Sausage",
+            "price":310,
+			"productCode": "FBB00037",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"NonVeg Pizzas",
+         "rating":4.1,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"The wholesome flavour of tandoori masala",
+            "id":15,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FIndian_Tandoori_Chicken_Tikka.webp?alt=media&token=c5f625a7-041c-4368-9f89-e6d3cd35dc5b","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FIndian_Tandoori_Chicken_Tikka.webp?alt=media&token=c5f625a7-041c-4368-9f89-e6d3cd35dc5b","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FIndian_Tandoori_Chicken_Tikka.webp?alt=media&token=c5f625a7-041c-4368-9f89-e6d3cd35dc5b","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FIndian_Tandoori_Chicken_Tikka.webp?alt=media&token=c5f625a7-041c-4368-9f89-e6d3cd35dc5b"],
+            "name":"Indi Chicken Tikka",
+            "price":570,
+			"productCode": "FBB00038",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"NonVeg Pizzas",
+         "rating":3.2,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Relish the delectable flavor of Chicken Pepperoni",
+            "id":16,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPepperoni.webp?alt=media&token=a42a2b10-b651-44c1-a1ea-680987fd23d0","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPepperoni.webp?alt=media&token=a42a2b10-b651-44c1-a1ea-680987fd23d0","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPepperoni.webp?alt=media&token=a42a2b10-b651-44c1-a1ea-680987fd23d0","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPepperoni.webp?alt=media&token=a42a2b10-b651-44c1-a1ea-680987fd23d0"],
+            "name":"Chicken Pepperoni",
+            "price":570,
+			"productCode": "FBB00039",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"NonVeg Pizzas",
+         "rating":3,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         }
+      ]
+    
+   },
+   {
+      "items":[
+         {
+            "desc":"An all-time fav! A Cheesy indulgence",
+            "id":17,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheesy.webp?alt=media&token=0a6d2a09-6661-4e15-b2d3-161e32d116ba","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheesy.webp?alt=media&token=0a6d2a09-6661-4e15-b2d3-161e32d116ba","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheesy.webp?alt=media&token=0a6d2a09-6661-4e15-b2d3-161e32d116ba","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheesy.webp?alt=media&token=0a6d2a09-6661-4e15-b2d3-161e32d116ba"],
+            "name":"Cheesy Dip",
+            "price":25,
+			"productCode": "FBB00040",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Side Dishes",
+         "rating":4.6,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Hot crispy wavy masala coated fries",
+            "id":18,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCrinkle_Fries.webp?alt=media&token=1b3bad75-67fa-4350-8027-98b2aec8bcbf","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCrinkle_Fries.webp?alt=media&token=1b3bad75-67fa-4350-8027-98b2aec8bcbf","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCrinkle_Fries.webp?alt=media&token=1b3bad75-67fa-4350-8027-98b2aec8bcbf","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCrinkle_Fries.webp?alt=media&token=1b3bad75-67fa-4350-8027-98b2aec8bcbf"],
+            "name":"Crinkle Fries",
+            "price":59,
+			"productCode": "FBB00041",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Side Dishes",
+         "rating":2.6,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":" Your perfect pizza partner when paired with dip",
+            "id":19,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FGarlic_bread.webp?alt=media&token=401111b2-370b-4413-b343-553e7bb437c7","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FGarlic_bread.webp?alt=media&token=401111b2-370b-4413-b343-553e7bb437c7","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FGarlic_bread.webp?alt=media&token=401111b2-370b-4413-b343-553e7bb437c7","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FGarlic_bread.webp?alt=media&token=401111b2-370b-4413-b343-553e7bb437c7"],
+            "name":"Garlic Breadsticks",
+            "price":99,
+			"productCode": "FBB00042",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Side Dishes",
+         "rating":2.6,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":" Truly irresistible taco with non-veg patty",
+            "id":20,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Nvg.webp?alt=media&token=afb0085c-cacc-4141-87c9-e6cbf40dc208","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Nvg.webp?alt=media&token=afb0085c-cacc-4141-87c9-e6cbf40dc208","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Nvg.webp?alt=media&token=afb0085c-cacc-4141-87c9-e6cbf40dc208","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Nvg.webp?alt=media&token=afb0085c-cacc-4141-87c9-e6cbf40dc208"],
+            "name":"Non Veg Taco",
+            "price":139,
+			"productCode": "FBB00043",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Side Dishes",
+         "rating":4,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":" Truly irresistible taco with veg patty",
+            "id":21,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Veg.webp?alt=media&token=2b7791de-415d-401b-b140-19a4932650b1","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Veg.webp?alt=media&token=2b7791de-415d-401b-b140-19a4932650b1","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Veg.webp?alt=media&token=2b7791de-415d-401b-b140-19a4932650b1","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Veg.webp?alt=media&token=2b7791de-415d-401b-b140-19a4932650b1"],
+            "name":"Veg Taco",
+            "price":119,
+			"productCode": "FBB00044",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Side Dishes",
+         "rating":5,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         }
+      ]
+   },
+   {
+      "items":[
+         {
+            "desc":"Indulgent, gooey molten lava filled cake",
+            "id":22,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChoco_Lava.webp?alt=media&token=fa50ccb3-7c4a-47bd-96d1-be67e367f79b","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChoco_Lava.webp?alt=media&token=fa50ccb3-7c4a-47bd-96d1-be67e367f79b","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChoco_Lava.webp?alt=media&token=fa50ccb3-7c4a-47bd-96d1-be67e367f79b","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FChoco_Lava.webp?alt=media&token=fa50ccb3-7c4a-47bd-96d1-be67e367f79b"],
+            "name":"Choco Lava Cake",
+            "price":99,
+			"productCode": "FBB00045",
+			"type": "fruit",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Desserts",
+         "rating":1.6,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Sweet temptation! Butterscotch mousse",
+            "id":23,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FButterscotch.webp?alt=media&token=f84d2cfc-d17c-4dae-810c-d22af8b5e6ac","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FButterscotch.webp?alt=media&token=f84d2cfc-d17c-4dae-810c-d22af8b5e6ac","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FButterscotch.webp?alt=media&token=f84d2cfc-d17c-4dae-810c-d22af8b5e6ac","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FButterscotch.webp?alt=media&token=f84d2cfc-d17c-4dae-810c-d22af8b5e6ac"],
+            "name":"Butterscotch Mousse",
+            "price":99,
+			"productCode": "FBB00046",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Desserts",
+         "rating":4.6,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         },
+         {
+            "desc":"Cholcolate drizzeled Hot Chocolate Brownie",
+            "id":24,
+            "img":["https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBrownie_Fantasy.webp?alt=media&token=61c7f537-b683-4a9b-b6fa-2a85ff35df6f","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBrownie_Fantasy.webp?alt=media&token=61c7f537-b683-4a9b-b6fa-2a85ff35df6f","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBrownie_Fantasy.webp?alt=media&token=61c7f537-b683-4a9b-b6fa-2a85ff35df6f","https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBrownie_Fantasy.webp?alt=media&token=61c7f537-b683-4a9b-b6fa-2a85ff35df6f"],
+            "name":"Brownie Fantasy",
+            "price":99,
+			"productCode": "FBB00047",
+			"type": "pizza",
+			"availability": "In Stock",
+			"shipping": "In 1 hr (Free Delivery)",
+         "category":"Desserts",
+         "rating":3,
+			"attributes":{
+				"size": ["small", "medium", "large"]
+			}
+         }
+      ]
+   }
+]

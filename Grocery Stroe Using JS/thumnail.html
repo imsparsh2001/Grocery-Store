@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thumbnail Example</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/mobile.css">
+  <link rel=" icon" type="image/x-icon" href="Images/grocery.png">
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/11d64471d7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container1">
+    <header id="header">
+      <a href="#"><img src="./Images/logo.PNG" alt="logo" class="logo-image" height="80px" width="80px" /></a>
+      <input type="search" id="search" name="search" placeholder="Search for Products" class="searchBar"
+        style="background-image: url(Images/search-bar.png)" />
+      <div class="nav">
+        <a href="#"><img src="./Images/like.png" alt="logo" class="like-image" height="40px" width="40px" /></a>
+        <a href="#" id="location"><img src="./Images/location.png" alt="logo" id="location-image" height="40px"
+            width="40px" /></a>
+        <a href="#"><img src="./Images/person.png" alt="logo" id="person-image" height="40px" width="40px" /></a>
+        <a href="#"><img src="./Images/cart.png" alt="logo" id="cart-image" height="40px" width="40px" /></a>
+      </div>
+    </header>
+    <hr />
+    <!-- location-overlay section -->
+    <div class="" id="blur">
+      <div id="popup-body">
+        <button class="close-button" id="cross">&times;</button>
+        <p class="headline" style="font-size: 18px;">
+          <b>Choose Your Delivery location</b>
+        </p>
+        <p class="description" style="font-size: 14px">
+          Enter your address and we will specify the offer you area.
+        </p>
+        <input type="search" placeholder="Search your area." id="areaSearch" />
+
+        <!-- table of location overlay -->
+        <table class="LocationTable">
+          <thead>
+            <tr>
+              <td id="loc"><b>Select Location</b></td>
+              <td><button class="clearBtn">clear all</button></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Albama</td>
+              <td>Min:$20</td>
+            </tr>
+            <tr>
+              <td>Alaska</td>
+              <td>Min:$30</td>
+            </tr>
+            <tr>
+              <td>Arizona</td>
+              <td>Min:$50</td>
+            </tr>
+            <tr>
+              <td>California</td>
+              <td>Min:$29</td>
+            </tr>
+            <tr>
+              <td>Colorado</td>
+              <td>Min:$80</td>
+            </tr>
+            <tr>
+              <td>Florida</td>
+              <td>Min:$90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="container">
+    <div class="row">
+      <section class="column-1">
+        <div class="path">
+          <span> <a href="index.html">Home /</a></span>
+          <span> Bakery Biscuits / </span>
+          <span> NapolitankeLjesnjak </span>
+        </div>
+        <!-- Space to display clicked thumbnail photo -->
+        <div class="display">
+          <img id="image-space" src="Images/detailPicture1.png">
+        </div>
+        <!-- A container to hold all four photo -->
+        <div class="thumbnails-container">
+          <img class="thumbnail-photo" src="Images/detailPicture1.png"
+            onclick="displayImage('Images/detailPicture1.png')">
+          <img class="thumbnail-photo" src="Images/detailPicture2.webp"
+            onclick="displayImage('Images/detailPicture2.webp')">
+          <img class="thumbnail-photo" src="Images/detailPicture3.webp"
+            onclick="displayImage('Images/detailPicture3.webp')">
+          <img class="thumbnail-photo" src="Images/detailPicture4.jpg"
+            onclick="displayImage('Images/detailPicture4.jpg')">
+        </div>
+      </section>
+      <!-- Second child column -->
+      <section class="column-2">
+        <hgroup>
+          <h6>Bakery Biscuits</h6>
+          <h2>Napolitanke Ljesnjak</h2>
+        </hgroup>
+        <!-- rating star -->
+        <div class="stars">
+          <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+          <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+          <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+          <i class="fa-solid fa-star" style="color: #FFDF00;"></i>
+          <i class="fa-solid fa-star-half-stroke" style="color: #FFDF00;"></i>
+          <span class="review">(30 reviews)</span>
+        </div>
+        <div class="clear"></div>
+        <h4 class="headingFour"> $32 <del> $35 </del> <span>26% Off </span></h4>
+        <br>
+        <div class="thumb-hr">
+          <hr>
+        </div>
+        <br>
+        <span class="size">250g</span>
+        <span class="size">500g</span>
+        <span class="size">1kg</span>
+        <div class="btn">
+          <button onclick="minus()">-</button><button class="num">01</button><button onclick="plus()">+</button>
+        </div>
+        <div class="icons">
+          <button id="button">Add to cart <i class="fa-solid fa-bag-shopping"></i></button>
+          <button class="icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></button>
+          <button class="icon"><i class="fa-regular fa-heart"></i></button>
+        </div>
+        <br>
+        <div class="thumb-hr">
+          <hr>
+        </div>
+        <br>
+        <!-- Table to demonstarte product details -->
+        <div class="information">
+          <table class="table1">
+            <thead></thead>
+            <tbody>
+              <tr>
+                <td class="data">Product: </td>
+                <td class="data">FBB00255 </td>
+              </tr>
+              <tr>
+                <td class="data">Availability: </td>
+                <td class="data">In Stock </td>
+              </tr>
+              <tr>
+                <td class="data">Type: </td>
+                <td class="data">Fruits </td>
+              </tr>
+              <tr>
+                <td class="data">Shipping: </td>
+                <td class="data">01 day shipping.<span>(Free pickup today)</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+
+    <section id="infopage">
+      <!--navigation bar -->
+      <nav class="navbar">
+        <ul>
+          <li><a id="product" class="nav-link active-link" onclick="showSegment('product_detail','product')">Product
+              Details</a></li>
+          <li><a id="info" class="nav-link" onclick="showSegment('product_information','info')">Information</a></li>
+          <li><a id="reviews" class="nav-link" onclick="showSegment('review_tab','reviews')">Reviews</a></li>
+          <li><a id="sellerinfo" class="nav-link" onclick="showSegment('seller_info','sellerinfo')">Seller Info</a></li>
+        </ul>
+        <!--Active line -->
+        <div class="active-line"></div>
+
+      </nav>
+      <br>
+      <!--Product details -->
+
+      <div class="segment" id="product_detail">
+        <h1>Nutrient Value & Benefits</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia tenetur rerum in beatae earum, dignissimos
+          optio repellat repudiandae suscipit eligendi ad, mollitia omnis placeat blanditiis voluptas, itaque quisquam
+          sed illo porro! Voluptas tenetur minus ea inventore repellat dolorem, cumque libero quibusdam? Minima,
+          laborum. Molestiae repellat repudiandae facilis voluptatum nemo quia.</p>
+        <h3>Storage Tips</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ab error quod aspernatur, adipisci ducimus
+          cupiditate rem officia esse maxime iusto placeat nam sapiente dignissimos iste vero reprehenderit doloremque
+          voluptatem?</p>
+        <h3>Unit</h3>
+        <p>3 units</p>
+        <h3>Seller</h3>
+        <p>DMart Pvt. LTD</p>
+        <h3>Disclaimer</h3>
+        <p>Images shown is a representation and may vary from the actual product.Every effort is maintain accuracy of
+          information displayed</p>
+
+
+      </div>
+      <!--Product Information-->
+      <div class="segment" id="product_information">
+        <h2>Details</h2>
+        <section class="table-container">
+          <table>
+            <!--Table container -->
+            <tr>
+              <td>Weight</td>
+              <td>1000 Grams</td>
+            </tr>
+            <tr>
+              <td>Ingredient Type</td>
+              <td>Vegetarian</td>
+            </tr>
+            <tr>
+              <td>Brand</td>
+              <td>Dmart</td>
+            </tr>
+            <tr>
+              <td>Item Package Quantity</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Form</td>
+              <td>larry the Bird</td>
+            </tr>
+            <tr>
+              <td>Manufacturer</td>
+              <td>Dmart</td>
+            </tr>
+            <tr>
+              <td>Net Quantity </td>
+              <td>340.0 Gram</td>
+            </tr>
+            <tr>
+              <td>Product Dimensions</td>
+              <td>9.6 &times 7.49 &times 18.49 cm</td>
+            </tr>
+
+          </table>
+        </section>
+        <section class="table-container">
+          <table>
+            <tr>
+              <td>ASIN</td>
+              <td>SB0025UJ75W</td>
+            </tr>
+            <tr>
+              <td>Best Sellers Rank</td>
+              <td>#2 in Fruits</td>
+            </tr>
+            <tr>
+              <td>Date First Available</td>
+              <td>30 April 2022</td>
+            </tr>
+            <tr>
+              <td>Item Weight</td>
+              <td>500g</td>
+            </tr>
+            <tr>
+              <td>Generic Name</td>
+              <td>Banana Robusta</td>
+            </tr>
+          </table>
+        </section>
+        <!-- to clear the default values-->
+        <div class="clear"></div>
+      </div>
+      <div class="segment" id="review_tab">
+        <h4>--need to be added--</h4>
+      </div>
+      <div class="segment" id="seller_info">
+        <h4>--need to be added--</h4>
+      </div>
+    </section>
+
+    <main>
+      <!-- Related Items section -->
+      <section class="related-items-section">
+        <h3>Related Items</h3>
+        <section class="specialoffers">
+          <article>
+            <pre><span> Sale </span></pre>
+            <div class="item-img">
+              <img width="150px" src="Images/Haldiram.png" alt="Haldiram.png" />
+            </div>
+            <p class="item-name">Snacks & Munchies</p>
+            <p>Haldiram's Sev Bhujia</p>
+            <!-- rating bar -->
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              4.5(149)
+            </div>
+            <div class="addcart">
+              <p>$18 <del>$24</del></p>
+              <button>+ Add</button>
+            </div>
+          </article>
+
+          <article>
+            <pre>‎</pre>
+            <div class="item-img">
+              <img width="150px" src="Images/britannia.webp" alt="biscuits.png" />
+            </div>
+            <p class="item-name">Bakery & Biscuits</p>
+            <p>NutriChoice Digestive</p>
+            <!-- rating bar -->
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              4.5(25)
+            </div>
+            <div class="addcart">
+              <p>$24</p>
+              <button>+ Add</button>
+            </div>
+          </article>
+
+          <article>
+            <pre>‎</pre>
+            <div class="item-img">
+              <img width="150px" src="Images/5star.png" alt="5star.png" />
+            </div>
+            <p class="item-name">Bakery & Biscuits</p>
+            <p>Cadbury 5 Star Chocolate</p>
+            <!-- rating bar -->
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              5(469)
+            </div>
+            <div class="addcart">
+              <p>$32 <del>$35</del></p>
+              <button>+ Add</button>
+            </div>
+          </article>
+
+          <article>
+            <pre>‎</pre>
+            <div class="item-img">
+              <img width="150px" src="Images/Lays.png" alt="Chips.png" />
+            </div>
+            <p class="item-name">Snacks & Munchies</p>
+            <p>Onion Flavour Potato</p>
+            <!-- rating bar -->
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star" style="color: #ffdf00;"></i>
+              3.5(456)
+            </div>
+            <div class="addcart">
+              <p>$3 <del>$5</del></p>
+              <button>+ Add</button>
+            </div>
+          </article>
+
+          <article>
+            <pre>‎</pre>
+            <div class="item-img">
+              <img width="150px" src="Images/Slurrp.png" alt="Slurrp.png" />
+            </div>
+            <p class="item-name">Snacks & Munchies</p>
+            <p>Slurrp Milet Chocolate</p>
+            <!-- rating bar -->
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+              4.5(67)
+            </div>
+            <div class="addcart">
+              <p>$6 <del>$10</del></p>
+              <button>+ Add</button>
+            </div>
+          </article>
+        </section>
+      </section>
+    </main>
+
+    <!-- footer Content -->
+    <footer>
+      <section>
+        <!-- Different Categories and About  -->
+        <article class="about">
+          <!-- Different Categories of goods available -->
+          <div class="categories">
+            <h4>Categories</h4>
+            <div class="subcategory">
+              <div>
+                <p>
+                  Vegetables & Fruits <br />
+                  Breakfast & Instant food <br />
+                  Bakery & Biscuits <br />
+                  Atta, rice & dal <br />
+                  Sauces & spreads <br />
+                  Organic & gourmet <br />
+                  Baby Care <br />
+                  Cleaning essentials <br />
+                  Personal Care
+                </p>
+              </div>
+
+              <div>
+                <p>
+                  Dairy, bread & eggs <br />
+                  Cold drinks & juices <br />
+                  Tea, coffee & drinks <br />
+                  Masala, oil & more <br />
+                  Chicken, meat & fish <br />
+                  Paan corner <br />
+                  Pharma & wellness <br />
+                  Home & office <br />
+                  Pet care
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- About Company -->
+          <div>
+            <h4>Get to know us</h4>
+            <p>
+              Company <br />
+              About <br />
+              Blog <br />
+              Help Center <br />
+              Our Value
+            </p>
+          </div>
+
+          <!-- Services for Consumer  -->
+          <div>
+            <h4>For Consumers</h4>
+            <p>
+              Payments <br />
+              Shipping <br />
+              Product Returns <br />
+              FAQ <br />
+              Shop Checkout
+            </p>
+          </div>
+
+          <!-- Shopper Opportunities -->
+          <div>
+            <h4>Become a Shopper</h4>
+            <p>
+              Shopper Opportunities <br />
+              Become a Shopper <br />
+              Earnings <br />
+              Ideas & Guides <br />
+              New Retailers <br />
+            </p>
+          </div>
+
+          <!-- New Programs and offers -->
+          <div>
+            <h4>Freshcart programs</h4>
+            <p>
+              Freshcart programs <br />
+              Gift Cards <br />
+              Promos & Coupons <br />
+              Freshcart Ads <br />
+              Careers
+            </p>
+          </div>
+        </article>
+
+        <hr class="custom-hr" />
+
+        <!-- Payment Gateway Partners -->
+        <article class="payment-bar">
+          <div>
+            <p>
+              Payment Partners
+              <img width="250px" src="Images/payment.png" alt="paymentgateways.png" />
+            </p>
+          </div>
+
+          <!-- App download Locations -->
+          <div>
+            <img width="150px" height="30px" src="Images/AppStore.png" alt="appstore.png" />
+            <img width="150px" height="30px" src="Images/GooglePlay.png" alt="googleplay.png" />
+          </div>
+        </article>
+
+        <hr class="custom-hr" />
+
+        <!-- Social Bar Container -->
+        <article class="social-bar">
+          <p>Follow us on</p>
+          <img width="100px" height="25px" src="Images/social.PNG" alt="socialnetworks.png" />
+        </article>
+      </section>
+    </footer>
+</body>
+</html>

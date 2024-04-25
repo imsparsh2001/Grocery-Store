@@ -1,0 +1,98 @@
+/* Order Confirmation */
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.OrderConfirm {
+  padding-left: 2%;
+  margin: auto;
+  width: 90%;
+}
+
+.OrderConfirm span {
+  font-size: 45px;
+}
+
+.mainbox {
+  margin-top: 2%;
+}
+
+.OrderConfirm span {
+  display: flex;
+  justify-content: center;
+  color: #1f3951;
+  float: left;
+  width: 5%;
+  margin-top: 0.5%;
+}
+
+.firstbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orderUpdates {
+  clear: both;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+  margin-top: 1%;
+}
+
+.order-text {
+  font-size: 15px;
+}
+
+.text-style {
+  color: gray;
+}
+
+.blank-space {
+  margin-top: 1%;
+  height: 300px;
+  box-shadow: 3px 8px 24px rgba(149, 157, 165, 0.2);
+  margin-bottom: 3%;
+}
+
+.inside-content {
+  padding: 12px;
+  border: 2px solid lightgray;
+  border-bottom: none;
+  border-radius: 5px;
+}
+
+.inside-content:last-child {
+  border-bottom: 2px solid lightgray;
+}
+
+.inside-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.inside-content .info-q {
+  width: 8%;
+}
+
+@media screen and (max-width: 740px) {
+  * {
+    line-height: 1.4;
+    max-width: 100%;
+  }
+
+  .mainbox {
+    margin-top: 30px;
+  }
+  
+  .firstbox {
+    padding-left: 10%;
+    float: left;
+  }
+}
